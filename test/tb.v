@@ -30,7 +30,7 @@ module tb ();
   wire [7:0] debug_enc = uio_out;
 
   // Replace tt_um_example with your module name:
-  tt_um_mattvenn_rgb_mixer tt_um_mattvenn_rgb_mixer (
+  tt_um_z2a_rgb_mixer tt_um_z2a_rgb_mixer (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
