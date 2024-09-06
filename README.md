@@ -1,6 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# RGB Mixer
+
+Use 3 encoders to control 3 PWM drivers. Demo project for the [Zero to ASIC course](https://zerotoasiccourse.com)
 
 - [Read the documentation for project](docs/info.md)
 
