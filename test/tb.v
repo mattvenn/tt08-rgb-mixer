@@ -33,10 +33,6 @@ module tb ();
   tt_um_z2a_rgb_mixer tt_um_z2a_rgb_mixer (
 
       // Include power ports for the Gate Level test:
-`ifdef GL_TEST
-      .VPWR(1'b1),
-      .VGND(1'b0),
-`endif
 
       .ui_in  ({debug_mode, enc2_b, enc2_a, enc1_b, enc1_a, enc0_b, enc0_a}),    // Dedicated inputs
       .uo_out (uo_out),   // Dedicated outputs
